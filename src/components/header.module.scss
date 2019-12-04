@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: tomato;
+  margin: 0;
+  padding: 1.5rem;
+  h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    .link {
+      text-decoration: none;
+      color: #192738;
+      font-size: 1.25rem;
+      &:hover {
+        color: #6be3d5;
+      }
+    }
+    .active {
+      color: #6be3d5;
+    }
+  }
+  .title {
+    text-decoration: none;
+    color: #192738;
+    &:hover {
+      color: #6be3d5;
+    }
+  }
+}

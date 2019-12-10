@@ -1,11 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from '../components/layout'
+import Head from '../components/head'
 
 const ContactPage = () => {
 
   return (
     <Layout>
+    <Head title='Contact' />
       <h1>Contact Info</h1>
       <h2>Twitter: <a href='https://www.twitter.com/home' target='_blank' rel="noopener noreferrer">@ZacDobbs</a></h2>
       <h2>Email: <span>zdobbs24@gmail.com</span></h2>
